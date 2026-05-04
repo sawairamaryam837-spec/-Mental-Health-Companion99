@@ -5,4 +5,4 @@ export interface Message {
   isError?: boolean;
 }
 
-export type ChatType = 'mental-health' | 'gitagpt';
+export type ChatType = 'mental-health' | 'QuranGPT';

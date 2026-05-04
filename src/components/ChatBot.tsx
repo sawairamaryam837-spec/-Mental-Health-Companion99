@@ -3,10 +3,10 @@ import { Message, ChatType } from '../types';
 import ChatBox from './ChatBox';
 import InputArea from './InputArea';
 import { generateResponse } from '../services/ai';
-import { generateGitaResponse } from '../services/gitagpt';
+import { generateQuranResponse } from '../services/QuranGPT';
 
 const STORAGE_KEY_MENTAL = 'manomitra-chat-history';
-const STORAGE_KEY_GITA = 'gitagpt-chat-history';
+const STORAGE_KEY_QURAN = 'qurangpt-chat-history';
 
 interface ChatBotProps {
   chatType: ChatType;
@@ -16,7 +16,7 @@ const ChatBot = ({ chatType }: ChatBotProps) => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const storageKey = chatType === 'mental-health' ? STORAGE_KEY_MENTAL : STORAGE_KEY_GITA;
+  const storageKey = chatType === 'mental-health' ? STORAGE_KEY_MENTAL : STORAGE_KEY_QURAN;
 
   useEffect(() => {
     const savedMessages = localStorage.getItem(storageKey);
@@ -48,7 +48,7 @@ const ChatBot = ({ chatType }: ChatBotProps) => {
     try {
       const responseText = chatType === 'mental-health'
         ? await generateResponse(text)
-        : await generateGitaResponse(text);
+        : await generateQuranResponse(text);
 
       const botMessage: Message = {
         id: Date.now() + 1,

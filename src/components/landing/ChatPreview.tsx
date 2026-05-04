@@ -26,7 +26,7 @@ const ChatPreview = () => {
             See It In Action
           </h2>
           <p className="text-xl text-gray-600">
-            A glimpse of how ManoMitra provides compassionate support
+            A glimpse of how Mental Health Companion provides compassionate support
           </p>
         </motion.div>
 

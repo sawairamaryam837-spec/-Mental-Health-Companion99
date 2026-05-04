@@ -13,9 +13,9 @@ const ChatPage = () => {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
-              <span className="text-2xl">{chatType === 'mental-health' ? '🌸' : '🕉️'}</span>
+              <span className="text-2xl">{chatType === 'mental-health' ? '🌸' : '📖🤍'}</span>
               <h1 className={`text-2xl font-heading font-semibold ${chatType === 'mental-health' ? 'text-teal-600' : 'text-orange-600'}`}>
-                {chatType === 'mental-health' ? 'ManoMitra' : 'GitaGPT'}
+                {chatType === 'mental-health' ? 'Mental Health Companion' : 'QuranGPT'}
               </h1>
             </div>
             <Link
@@ -42,15 +42,15 @@ const ChatPage = () => {
               </div>
             </button>
             <button
-              onClick={() => setChatType('gitagpt')}
+              onClick={() => setChatType('QuranGPT')}
               className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-all ${
-                chatType === 'gitagpt'
+                chatType === 'QuranGPT'
                   ? 'bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg'
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
               <div className="flex items-center justify-center gap-2">
-                <span className="text-xl">🕉️</span>
+                <span className="text-xl">📖🤍</span>
                 <span>Spiritual Guidance</span>
               </div>
             </button>

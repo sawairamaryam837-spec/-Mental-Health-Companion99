@@ -54,8 +54,8 @@ const WELLNESS_FEATURES = [
     path: '/wellness/gratitude',
   },
   {
-    id: 'gita',
-    name: 'Gita Wisdom Library',
+    id: 'Quran',
+    name: ' Quran Wisdom Library',
     description: 'Ancient wisdom for modern challenges',
     icon: BookOpen,
     color: 'from-orange-500 to-orange-700',

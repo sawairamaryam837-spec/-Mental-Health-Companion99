@@ -32,13 +32,13 @@ const ChatBox = ({ messages, isLoading, chatType }: ChatBoxProps) => {
     ? 'from-teal-400 to-teal-600'
     : 'from-orange-400 to-orange-600';
 
-  const emoji = isMentalHealth ? '🌸' : '🕉️';
+  const emoji = isMentalHealth ? '🌸' : '📖🤍';
   const greeting = isMentalHealth
-    ? "Hi, I'm ManoMitra"
-    : "Namaste, I am GitaGPT";
+    ? "Hi, I'm Mental Health Companion"
+: "Assalamu Alaikum, I’m your Quran companion"
   const description = isMentalHealth
     ? "How are you feeling today? I'm here to listen without judgment."
-    : "I'm here to guide you with the eternal wisdom of the Bhagavad Gita. Share what weighs upon your heart.";
+    : "I'm here to guide you with the eternal wisdom of the Quran. Share what weighs on your heart.";
 
   return (
     <div className="flex-1 overflow-y-auto space-y-4 p-4">

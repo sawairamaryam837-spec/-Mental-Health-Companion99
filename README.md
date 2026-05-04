@@ -1,4 +1,4 @@
-# 🌸 ManoMitra - Your AI Mental Wellness Companion
+# 🌸 Mental Health Companion - Your AI Mental Wellness Companion
 
 > *"Your Safe Space for Mental Wellness"*
 
@@ -8,7 +8,7 @@ AI-powered emotional support chatbot built for **HackNova 2025**
 
 ## 📖 About
 
-**ManoMitra** is an empathetic AI chatbot that provides 24/7 mental wellness support. Built with Google's Gemini AI, it offers a safe, judgment-free space for emotional conversations.
+**Mental Health Companion** is an empathetic AI chatbot that provides 24/7 mental wellness support. Built with Google's Gemini AI, it offers a safe, judgment-free space for emotional conversations.
 
 **Problem Statement**: Healthcare  
 **Goal**: Make mental health support accessible to everyone through AI-powered conversations.
@@ -24,20 +24,19 @@ AI-powered emotional support chatbot built for **HackNova 2025**
 
 ---
 
-## 👥 Team Visioneers
+## 👥 Team Mental Health Companion
 
-We are **Team Visioneers** - a passionate group of Data Science students from Buddha Institute of Technology, driven by the vision to make mental wellness accessible to everyone.
+We are **Team Mental Health Companion** - a passionate group of Data Science students from Buddha Institute of Technology, driven by the vision to make mental wellness accessible to everyone.
 
 | Name | Role | Year | Roll Number |
 |------|------|------|-------------|
-| **Priyanshu Vishwakarma** | Team Leader | Final Year (Data Science) | 2205251540038 |
-| **Ankita Kumari Singh** | Team Member | 3rd Year (Data Science) | 2305251540016 |
-| **Anjali Yadav** | Team Member | 3rd Year (Data Science) | 2305251540015 |
-| **Shambhavi Shukla** | Team Member | 3rd Year (Data Science) | 2305251540016 |
+| **Sawaira Maryam** | Team Leader | Final Year (Data Science) | 2205251540038 |
+| **Aymen ** | Team Member | 3rd Year (Data Science) | 2305251540016 |
+
 
 ### 🎓 Institution
-**Buddha Institute of Technology**  
-CL-1, Sector 7, GIDA, Gorakhpur, Uttar Pradesh 273209
+**Computer information and Technology**  
+thal univserity bhakkar ,pakistan
 
 ---
 
@@ -351,4 +350,5 @@ If you find ManoMitra helpful, please consider giving us a ⭐ on GitHub. It hel
 
 **HackNova 2025**
 
-</div>
+</div>#   - M e n t a l - H e a l t h - C o m p a n i o n 9 9  
+ 

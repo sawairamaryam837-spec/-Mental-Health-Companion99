@@ -30,7 +30,7 @@ const DualFeatures = () => {
           >
             <div className="flex items-center gap-3 mb-6">
               <span className="text-4xl">🌸</span>
-              <h3 className="text-3xl font-heading font-bold text-teal-700">ManoMitra Chat</h3>
+              <h3 className="text-3xl font-heading font-bold text-teal-700">Mental Health Companion Chat</h3>
             </div>
             <p className="text-gray-700 mb-6">
               Modern mental health support with evidence-based techniques
@@ -70,11 +70,11 @@ const DualFeatures = () => {
             className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-3xl p-8 shadow-lg"
           >
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-4xl">🕉️</span>
-              <h3 className="text-3xl font-heading font-bold text-orange-700">GitaGPT</h3>
+              <span className="text-4xl">📖🤍</span>
+              <h3 className="text-3xl font-heading font-bold text-orange-700">QuranGPT</h3>
             </div>
             <p className="text-gray-700 mb-6">
-              Ancient wisdom from the Bhagavad Gita for modern challenges
+              Ancient wisdom from the QuranGPT for modern challenges
             </p>
             <div className="space-y-4">
               {[

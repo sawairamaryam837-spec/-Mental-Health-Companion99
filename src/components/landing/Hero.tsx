@@ -63,7 +63,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            AI-powered support combining compassionate mental health care with ancient wisdom from the Bhagavad Gita.
+            AI-powered support combining compassionate mental health care with ancient wisdom from the Quran.
             Available 24/7 whenever you need guidance.
           </p>
         </motion.div>
@@ -91,7 +91,7 @@ const Hero = () => {
             onClick={scrollToHowItWorks}
             className="px-8 py-4 bg-white text-gray-700 rounded-full text-lg font-semibold hover:shadow-lg transition-all hover:scale-105 active:scale-95 flex items-center gap-2 border border-gray-200"
           >
-            Learn About GitaGPT and ManoMitra
+            Learn About QuranGPT and Friend of the Mind
             <ArrowDown size={20} />
           </button>
         </motion.div>

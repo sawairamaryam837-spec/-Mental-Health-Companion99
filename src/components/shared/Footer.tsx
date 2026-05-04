@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <span className="text-3xl">🌸</span>
               <h3 className="text-2xl font-heading font-bold text-white">
-                ManoMitra
+              Mental Health Companion
               </h3>
             </div>
             <p className="text-gray-400 leading-relaxed">
@@ -70,7 +70,7 @@ const Footer = () => {
                 <Mail size={18} className="mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-white">Crisis Text Line</p>
-                  <p className="text-sm text-gray-400">Text HOME to 741741</p>
+                  <p className="text-sm text-gray-400">Text HOME to 1122</p>
                 </div>
               </li>
             </ul>
@@ -84,22 +84,22 @@ const Footer = () => {
               <Heart size={16} className="inline text-red-500 fill-current" />{" "}
               by{" "}
               <a
-                href="https://www.linkedin.com/in/priyanshu-vishwakarmaa/"
+                href="https://www.linkedin.com/in/sawaira-maryam-8a3842362/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition-colors"
               >
-                Priyanshu Vishwakarma
+               Sawaira Maryam
               </a>{" "}
-              and team Visioneers
+              and team Mental Health Companion
             </p>
             <p className="text-sm text-gray-400">
-              © 2025 ManoMitra. All rights reserved.
+              © 2026 Mental Health Companion. All rights reserved.
             </p>
           </div>
           <div className="mt-4 text-center">
             <p className="text-xs text-gray-500 max-w-3xl mx-auto">
-              <strong>Disclaimer:</strong> ManoMitra provides emotional support
+              <strong>Disclaimer:</strong> Mental Health Companion provides emotional support
               and is not a substitute for professional medical advice,
               diagnosis, or treatment. If you are experiencing a mental health
               crisis, please contact emergency services or a qualified mental

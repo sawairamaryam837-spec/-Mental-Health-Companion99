@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { BookOpen, Sparkles, Heart, Flower2 } from 'lucide-react';
 
-const GitaGPTSection = () => {
+const QuranGPTSection = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-orange-50 via-white to-orange-100 relative overflow-hidden">
       <motion.div
@@ -25,13 +25,13 @@ const GitaGPTSection = () => {
           className="text-center mb-12"
         >
           <div className="flex items-center justify-center gap-3 mb-4">
-            <span className="text-6xl">🕉️</span>
+            <span className="text-6xl">📖🤍</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
-            Discover <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700">GitaGPT</span>
+            Discover <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700">QuranGPT</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ancient wisdom meets modern AI. Get spiritual guidance from the Bhagavad Gita to navigate life's challenges with clarity and inner peace.
+            Ancient wisdom meets modern AI. Get spiritual guidance from the Quran to navigate life's challenges with clarity and inner peace.
           </p>
         </motion.div>
 
@@ -40,7 +40,7 @@ const GitaGPTSection = () => {
             {
               icon: BookOpen,
               title: 'Timeless Wisdom',
-              description: 'Teachings from the Bhagavad Gita applied to your modern life challenges',
+              description: 'Teachings from the Quran applied to your modern life challenges',
               color: 'from-orange-400 to-orange-600',
             },
             {
@@ -94,7 +94,7 @@ const GitaGPTSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-3xl font-heading font-bold mb-4">
-                What GitaGPT Can Help You With
+                What QuranGPT Can Help You With
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
@@ -132,11 +132,11 @@ const GitaGPTSection = () => {
                 "You have the right to perform your duties, but you are not entitled to the fruits of your actions."
               </blockquote>
               <p className="text-orange-100 text-sm">
-                — Bhagavad Gita 2.47
+                — Quran 2.47
               </p>
               <div className="mt-6 pt-6 border-t border-white/20">
                 <p className="text-sm text-orange-100">
-                  GitaGPT helps you understand and apply such timeless wisdom to your everyday challenges, providing spiritual support that complements your mental wellness journey.
+                  QuranGPT helps you understand and apply such timeless wisdom to your everyday challenges, providing spiritual support that complements your mental wellness journey.
                 </p>
               </div>
             </div>
@@ -147,4 +147,4 @@ const GitaGPTSection = () => {
   );
 };
 
-export default GitaGPTSection;
+export default QuranGPTSection;

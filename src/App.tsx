@@ -7,9 +7,10 @@ import MoodTracker from './components/wellness/MoodTracker';
 import MeditationTimer from './components/wellness/MeditationTimer';
 import BreathingExercise from './components/wellness/BreathingExercise';
 import GratitudeJournal from './components/wellness/GratitudeJournal';
-import GitaWisdomLibrary from './components/wellness/GitaWisdomLibrary';
+import QuranWisdomLibrary from './components/wellness/QuranWisdomLibrary';
 import AffirmationGame from './components/wellness/games/AffirmationGame';
 import StressReliefGame from './components/wellness/games/StressReliefGame';
+
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route path="/wellness/meditation" element={<MeditationTimer />} />
         <Route path="/wellness/breathing" element={<BreathingExercise />} />
         <Route path="/wellness/gratitude" element={<GratitudeJournal />} />
-        <Route path="/wellness/gita" element={<GitaWisdomLibrary />} />
+        <Route path="/wellness/gita" element={<QuranWisdomLibrary/>} />
         <Route path="/wellness/affirmations" element={<AffirmationGame />} />
         <Route path="/wellness/stress-relief" element={<StressReliefGame />} />
       </Routes>

@@ -11,7 +11,7 @@ const Features = () => {
     {
       icon: Clock,
       title: 'Always Available',
-      description: 'Day or night, whenever you need support, ManoMitra is here for you.',
+      description: 'Day or night, whenever you need support, Mental Health Companion  is here for you.',
     },
     {
       icon: Brain,
@@ -46,7 +46,7 @@ const Features = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
-            Why Choose ManoMitra?
+            Why Choose Mental Health Companion?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Mental wellness support designed with you in mind

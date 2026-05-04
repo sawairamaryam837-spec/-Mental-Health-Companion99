@@ -7,25 +7,25 @@ const Testimonials = () => {
 
 const testimonials = [
   {
-    name: 'Ankita Kumari Singh',
+    name: 'fatima ali',
     role: 'College Student',
-    text: 'ManoMitra really helped me during exam stress. Talking to it late at night when I felt anxious gave me a sense of calm and support, like a caring friend who actually understands.',
+    text: 'Mental Health Companion really helped me during exam stress. Talking to it late at night when I felt anxious gave me a sense of calm and support, like a caring friend who actually understands.',
     rating: 5,
   },
   {
-    name: 'Priyanshu Vishwakarma',
+    name: 'akram abbas',
     role: 'Software Engineer',
     text: 'Working in tech can get overwhelming sometimes. ManoMitra helps me clear my thoughts and reminds me to slow down and breathe. It feels like having a thoughtful companion who truly listens.',
     rating: 5,
   },
   {
-    name: 'Anjali Yadav',
+    name: 'murtijiz ali',
     role: 'Professor',
     text: 'At first, I didn’t expect much from an AI chat, but ManoMitra surprised me. The responses feel warm and understanding — it has genuinely helped me manage my emotions better.',
     rating: 5,
   },
   {
-    name: 'Shambhavi Shukla',
+    name: 'abbas ali shah',
     role: 'Entrepreneur',
     text: 'Running my business can get really stressful. ManoMitra gives me a safe and non-judgmental space to express myself. It’s like having a peaceful conversation that helps me regain focus.',
     rating: 5,

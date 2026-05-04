@@ -7,9 +7,9 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What's the difference between ManoMitra and GitaGPT?",
+      question: "What's the difference between Mental Health Companion and QuranGPT?",
       answer:
-        "ManoMitra provides modern, evidence-based mental health support with practical coping strategies. GitaGPT offers spiritual guidance rooted in the Bhagavad Gita's ancient wisdom. Both complement each other beautifully - use whichever resonates with you, or explore both!",
+        "Mental Health Companion provides modern, evidence-based mental health support with practical coping strategies. QuranGPT offers spiritual guidance rooted in the quranGPT's ancient wisdom. Both complement each other beautifully - use whichever resonates with you, or explore both!",
     },
     {
       question: "Is this a replacement for professional therapy?",
@@ -24,7 +24,7 @@ const FAQ = () => {
     {
       question: "Is this service free?",
       answer:
-        "Yes, both ManoMitra and GitaGPT are currently free to use. We believe mental and spiritual wellness support should be accessible to everyone who needs it.",
+        "Yes, both Mental Health Companionand QuranGPT are currently free to use. We believe mental and spiritual wellness support should be accessible to everyone who needs it.",
     },
   ];
 
